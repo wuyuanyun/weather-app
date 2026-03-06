@@ -246,7 +246,7 @@ class WeatherAPI {
         }
     }
 
-    // 获取7天预报
+    // 获取7天预报 - /v7/weather/7d
     async get7dWeather(locationId) {
         if (!locationId) {
             throw new Error('Location ID不能为空')
@@ -287,9 +287,10 @@ class WeatherAPI {
         if (location.country) parts.push(location.country)
         return parts.join(', ')
     }
-
     /**
-     * 获取空气质量
+     * 获取空气质量：/airquality/v1/current/{lat}/{lon}?key=你的key
+     * @param {number} lat - 纬度
+     * @param {number} lon - 经度
      */
     async getAirQuality(lat, lon) {
         if (!lat || !lon) {
