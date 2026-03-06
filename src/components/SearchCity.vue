@@ -114,7 +114,6 @@ const selectCity = async (city) => {
   try {
     const weatherData = await weatherAPI.getCompleteWeatherByCity(city)
     emit('search-complete', weatherData)
-    ElMessage.success(`已获取 ${city.name} 的天气`)
     
     // 可选：更新搜索框显示
     cityName.value = city.name
