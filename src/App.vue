@@ -6,7 +6,7 @@
     <div class="content">
       <h1 class="title">
         <span class="title-icon">🌤️</span>
-        天气应用
+        今天天气怎样
       </h1>
       
       <!-- 搜索组件 - 使用统一的包装类 -->
@@ -197,6 +197,7 @@ const bgStyle = computed(() => {
 }
 
 .app {
+  width: 1260px;
   min-height: 100vh;
   position: relative;
   transition: background 0.5s ease;

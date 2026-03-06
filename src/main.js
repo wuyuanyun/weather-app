@@ -2,11 +2,9 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
 
 const app = createApp(App)
 
-app.use(router)
 // 引入Element Plus
 import ElementPlus from 'element-plus'
 // 引入Element Plus的样式
