@@ -88,7 +88,6 @@ const handleSearch = async () => {
     
     // 单个城市直接返回
     emit('search-complete', result)
-    ElMessage.success(`已获取 ${result.city.name} 的天气`)
     
   } catch (error) {
     console.error('搜索失败：', error)
