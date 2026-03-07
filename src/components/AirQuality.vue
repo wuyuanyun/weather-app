@@ -139,7 +139,7 @@ const sensitiveAdvice = computed(() => {
 
 // 主要污染物
 const primaryPollutant = computed(() => {
-  return mainIndex.value?.primaryPollutant || null
+  return mainIndex.value?.primaryPollutant?.name || null
 })
 
 // 污染物列表

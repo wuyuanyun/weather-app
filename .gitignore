@@ -39,4 +39,4 @@ __screenshots__/
 *.timestamp-*-*.mjs
 
 # 配置文件
-src/api/config.js
+.env.local
