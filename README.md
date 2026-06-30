@@ -1,11 +1,18 @@
-🌤️ 天气应用 - 和风天气API
+天气应用 - 和风天气API
 一个基于 Vue 3 + Vite + Element Plus 开发的响应式天气预报应用，使用和风天气API。支持城市搜索、实时天气、3天预报、空气质量监测、最近搜索历史等功能。项目结构清晰，封装了API层、组合式函数，并处理了同名城市、错误边界等实际场景。
-🔗 在线演示： https://weather-app.vercel.app （请替换为你的真实地址）
+最近新增了ai个性化天气建议模块，以及更新了新样式，有时间再上传。
 --------------------------------------------------------------------------------
-📸 截图
-桌面端移动端
+新界面优化展示：
+（图片背景由豆包生成，只做学习展示故不消除水印）
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/1039b52a-39f1-4b38-85f0-6e7574fe0236" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/4b412eb5-87d9-489d-b0b9-dd17b04202a9" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/be0d50c7-a41d-4c52-871d-ded7e31e7e5b" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/65b6de33-7858-4ac2-a220-d93970ce2dac" />
+<img width="410" height="871" alt="image" src="https://github.com/user-attachments/assets/384b2fda-b87a-490f-b8cc-8ceed28deead" />
+<img width="454" height="933" alt="image" src="https://github.com/user-attachments/assets/2f8ddfbf-df30-44f2-b614-948b73e19b7b" />
 
-截图占位，请将实际截图放在 screenshots/ 目录下。
+原始界面：
+<img width="555" height="1039" alt="image" src="https://github.com/user-attachments/assets/51d651a7-16fb-4e68-9040-42f8ac590c19" />
 
 --------------------------------------------------------------------------------
 ✨ 功能特点
@@ -64,8 +71,6 @@ weather-app/
 git clone https://gitee.com/bing15_23/weather-app.git
 2.安装依赖
 npm install
-# 或
-pnpm install
 3.配置API密钥
 - 复制配置文件示例：
 cp src/api/config.example.js src/api/config.js
@@ -99,20 +104,6 @@ export default {
     }
   }
 }
-
---------------------------------------------------------------------------------
-🌐 部署
-本项目可一键部署到 Vercel：
-1.将代码推送到 GitHub/Gitee。
-2.在 Vercel 中导入该仓库。
-3.添加环境变量（如果使用）：
-- VITE_QWEATHER_KEY
-- VITE_QWEATHER_HOST
-4.点击部署，获得线上地址。
-其他平台（如 Netlify、GitHub Pages）同样支持。
---------------------------------------------------------------------------------
-📄 许可证
-
 --------------------------------------------------------------------------------
 🙏 致谢
 - 构建工具：和风天气
