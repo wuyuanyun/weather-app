@@ -1,21 +1,28 @@
 天气应用 - 和风天气API
 一个基于 Vue 3 + Vite + Element Plus 开发的响应式天气预报应用，使用和风天气API。支持城市搜索、实时天气、3天预报、空气质量监测、最近搜索历史等功能。项目结构清晰，封装了API层、组合式函数，并处理了同名城市、错误边界等实际场景。
-最近新增了ai个性化天气建议模块，以及更新了新样式，有时间再上传。
+
+进阶：更改样式+添加后端
+新增整合通义千问大模型，实现千人千面的AI生活建议。
+全栈架构：Vue3 + Vite + Element Plus + SpringBoot 3.2 + MyBatis + MySQL
 --------------------------------------------------------------------------------
-新界面优化展示：
+进阶界面展示：
+注：图片背景是收集网上素材搭配豆包生成，在此只做学习展示。
 
-（图片背景由豆包生成，只做学习展示故不消除水印）
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/1039b52a-39f1-4b38-85f0-6e7574fe0236" />
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/4b412eb5-87d9-489d-b0b9-dd17b04202a9" />
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/be0d50c7-a41d-4c52-871d-ded7e31e7e5b" />
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/65b6de33-7858-4ac2-a220-d93970ce2dac" />
-<img width="410" height="871" alt="image" src="https://github.com/user-attachments/assets/384b2fda-b87a-490f-b8cc-8ceed28deead" />
-<img width="454" height="933" alt="image" src="https://github.com/user-attachments/assets/2f8ddfbf-df30-44f2-b614-948b73e19b7b" />
+添加个人习惯界面
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/af519f45-c481-413d-9812-9523e162f643" />
 
-原始界面：
+主页（不同天气情况的ai提醒以及背景）
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/49eeef8f-bb5c-4137-9689-6bb2688d6a05" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/920d705d-91b4-4741-850a-3d3de7a17c8b" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/d516545a-6e88-4a93-ab81-f12816b7a5db" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/49515617-3547-478d-9837-d519289a0ce7" />
 
+
+搜索
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/399567cd-5dbe-46ef-a360-1189d142e394" />
+
+初始界面：
 <img width="555" height="1039" alt="image" src="https://github.com/user-attachments/assets/51d651a7-16fb-4e68-9040-42f8ac590c19" />
-
 --------------------------------------------------------------------------------
 ✨ 功能特点
 - 🔍 智能城市搜索 - 支持中英文城市名，当API返回多个同名城市时弹出选择框（例如“旧金山”可区分美国/危地马拉）。
