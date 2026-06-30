@@ -3,6 +3,7 @@
 最近新增了ai个性化天气建议模块，以及更新了新样式，有时间再上传。
 --------------------------------------------------------------------------------
 新界面优化展示：
+
 （图片背景由豆包生成，只做学习展示故不消除水印）
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/1039b52a-39f1-4b38-85f0-6e7574fe0236" />
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/4b412eb5-87d9-489d-b0b9-dd17b04202a9" />
@@ -12,6 +13,7 @@
 <img width="454" height="933" alt="image" src="https://github.com/user-attachments/assets/2f8ddfbf-df30-44f2-b614-948b73e19b7b" />
 
 原始界面：
+
 <img width="555" height="1039" alt="image" src="https://github.com/user-attachments/assets/51d651a7-16fb-4e68-9040-42f8ac590c19" />
 
 --------------------------------------------------------------------------------
